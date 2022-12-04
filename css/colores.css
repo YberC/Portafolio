@@ -5,7 +5,7 @@
     justify-content: center;
 }
 
-.colores-calidos{
+.colores1{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,9 +31,9 @@
     width: 200px;
 }
 
-.colores-frios{
+.colores2{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     margin-left: 10px;
@@ -55,4 +55,28 @@
     background-color: #008000;
     height: 200px;
     width: 200px;
+}
+
+.red:hover{
+    color: oldlace;
+}
+
+.orange:hover{
+    color: gold;
+}
+
+.yellow:hover{
+    color: #008000;
+}
+
+.blue:hover{
+    color: coral;
+}
+
+.violet:hover{
+    color: aquamarine;
+}
+
+.green:hover{
+    color: bisque;
 }
