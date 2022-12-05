@@ -18,6 +18,11 @@
     font-size: 10em;
 }
 
+body{
+    background-image: url('../images/GOT.jpg');
+    background-size: absolute;
+}
+
 /* cinzel-700 - latin */
 @font-face {
     font-family: 'Cinzel';

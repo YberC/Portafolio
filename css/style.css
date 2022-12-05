@@ -1,5 +1,5 @@
 /*Estoy utilizando elementos html */
-h1 {
+.h1 {
     /*propiedades*/
     text-align: center;
 }
@@ -18,3 +18,4 @@ p.selector-clase {
 li.selector-clase {
     color:yellowgreen
 }
+
