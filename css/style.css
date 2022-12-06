@@ -1,14 +1,15 @@
 /*Estoy utilizando elementos html */
-.h1 {
+h1 {
     /*propiedades*/
     text-align: center;
 }
 h2 {
     text-align: center;
-    color:aqua; 
+    color:rgb(51, 51, 43); 
 }
+
 .selector-clase{
-    color:blue
+    color:rgb(32, 139, 38)
 }
 /*selector de clase hace referencia a alguna fuente especial*/
 /*selector de clase atado a un elemento li., ., p.,....*/
@@ -19,3 +20,30 @@ li.selector-clase {
     color:yellowgreen
 }
 
+body{
+    background-image: url('../images/fondop.png');
+}
+
+.titulo{
+    font-family: 'NemoyBold';
+    font-weight: bold;
+    font-style: normal;  
+}
+
+.nombre{
+   font-family: 'MiTicaRegular';
+   font-weight: normal;
+   font-style: normal; 
+}
+
+.bienvenida{
+    font-family: 'TambourineRegular';
+   font-weight: bold;
+   font-style: normal;
+}
+
+.intro{
+    font-family: 'CoupeurBricoleurDOWN';
+   font-weight: normal;
+   font-style: normal;
+}

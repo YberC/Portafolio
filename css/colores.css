@@ -80,3 +80,8 @@
 .green:hover{
     color: bisque;
 }
+
+body{
+    background-image: url('../images/feria.jpg');
+    background-attachment: fixed;
+}
