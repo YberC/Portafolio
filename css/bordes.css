@@ -64,14 +64,42 @@ p{
     margin-top: -367px;
 }
 
+section{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section .circulo span{
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    border-radius: 500px;
+    transform: rotate(calc(var(--i) * (360deg / 15))) translateY(35px);
+    background: rgb(206, 48, 48);
+    animation: animate 1.5s linear infinite;
+    animation-delay: calc(var(--i)*0.1s);
+    opacity: 0;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 
 
-
-.circulo{
-    width: 300px; /*tamaño*/
+/*.circulo{
+    width: 300px; 
     height: 300px;
     border-radius: 200px;
     background-color: aquamarine;
     margin-left: 800px;
+    
     border: 20px groove red;
-}
+}*/
