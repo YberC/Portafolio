@@ -22,6 +22,7 @@ li.selector-clase {
 
 body{
     background-image: url('../images/fondop.png');
+    background-size: cover;
 }
 
 .titulo{

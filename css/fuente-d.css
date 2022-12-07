@@ -1,7 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;   
-}
 
 .box-1 {
     display: flex;
@@ -13,13 +9,15 @@
 .fuente-d {
     position: absolute;
     color:rgb(74, 11, 248);
-    font-size: 20em;
+    font-size: 10em;
     font-family: 'WaltographRegular';
     font-weight: normal;
     font-style: normal;
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background-image: url('../images/walle.jpg');
-    background-size: absolute;
+    background-size: cover;
 }

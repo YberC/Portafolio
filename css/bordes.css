@@ -12,10 +12,10 @@ p{
     letter-spacing: -.03em;
     word-spacing: -.03em;
     line-height: .8em;
-    
 }
 
 .box{
+    display: flex;
     width: 150px;
     height: 150px;
     border: 10px dashed rgb(33, 246, 36);
@@ -26,51 +26,47 @@ p{
 }
 
 .box1{
+    display: flex;
     width: 150px;
     height: 150px;
     border: 10px dotted black;
     background-color: rgb(222, 159, 95);
     margin-left: 200px; 
     margin-bottom: 50px;
-    margin-top: -218px;
+    margin-top: -221px;
 }
 
 .box2{
+    display: flex;
     width: 150px;
     height: 150px;
     border: 10px solid black;
     background-color: aqua;
     margin-left: 400px; 
     margin-bottom: -655px;
-    margin-top: -218px; 
+    margin-top: -221px; 
 }
 
 .box3{
+    display: flex;
     width: 150px;
     height: 150px;
     border: 10px double black;
     background-color: rgb(211, 53, 137);
     margin-left: 600px; 
     margin-bottom: 50px;
-    margin-top: 486px;
+    margin-top: 485px;
 }
 
 .box4{
+    display: flex;
     width: 150px;
     height: 150px;
     border: 10px groove rgb(218, 38, 38);
     background-color: rgb(232, 230, 91);
     margin-left: 800px; 
     margin-bottom: 50px;
-    margin-top: -218px;
-}
-
-section{
-    /*display: flex;
-    height: 100vh;
-    width: 100%;
-    align-items: center;
-    justify-content: center;*/
+    margin-top: -220px;
 }
 
 section .circulo span{
@@ -95,12 +91,3 @@ section .circulo span{
     }
 }
 
-/*.circulo{
-    margin-bottom: 10px;
-    width: 50px; 
-    height: 50px;
-    border-radius: 200px;
-    background-color: aquamarine;
-    margin-left: 150px;
-    border: 20px groove red;
-}*/

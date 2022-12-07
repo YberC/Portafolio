@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 .box-1 {
     display: flex;
@@ -19,8 +16,10 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background-image: url('../images/GOT.jpg');
-    background-size: absolute;
+    background-size: cover;
     
 }
 
