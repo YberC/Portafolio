@@ -1,41 +1,76 @@
-.box-1{
-    width: 300px;
-    height: 300px;
-    border: 5px solid black;
-    background-color: aqua;
-    margin-left: 400px;
+body{
+    background-color: bisque;
 }
 
 p{
     font-size: 30px;
-    margin-top: 128px;
+    margin-top: 5px;
+    margin-bottom: 18px;
     text-align: center;
+    margin: 5px;
+    letter-spacing: -.03em;
+    word-spacing: -.03em;
+    line-height: .8em;
+
 }
 
-.parr-style {
-    font-size: 2.5;
-    margin: 100px;
-    margin-right: 200px;
-    text-align: justify;
-    border: 1px solid rgb(64,64,64,.7);  
+.box{
+    width: 300px;
+    height: 300px;
+    border: 5px dashed black;
+    background-color: aqua;
+    margin-bottom: 50px;
 }
 
-.parr-padding{
-    font-size: 2.5;
-    margin: 100px;
-    margin-right: 100px;
-    text-align: right;
-    border: 1px solid rgb(64,64,64,.7); 
-    padding-top: 50px;
-    padding-right: 20px;
-    padding-left: 50px;
-    padding-bottom: 20px;
+.box1{
+    width: 300px;
+    height: 300px;
+    border: 5px dotted black;
+    background-color: aqua;
+    margin-left: 400px; 
+    margin-bottom: 50px;
+    margin-top: -355px;
 }
 
-.box-2{
-    width: 100px;
-    height: 100px;
-    border-radius: 25px;
+.box2{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: aqua;
+    margin-left: 800px; 
+    margin-bottom: -655px;
+    margin-top: -355px;
+  
+}
+
+.box3{
+    width: 300px;
+    height: 300px;
+    border: 5px double black;
+    background-color: aqua;
+    margin-left: 1200px; 
+    margin-bottom: 50px;
+    margin-top: 350px;
+}
+
+.box4{
+    width: 300px;
+    height: 300px;
+    border: 5px groove black;
+    background-color: aqua;
+    margin-left: 1600px; 
+    margin-bottom: 50px;
+    margin-top: -360px;
+}
+
+
+
+
+.circulo{
+    width: 300px; /*tamaño*/
+    height: 300px;
+    border-radius: 200px;
     background-color: aquamarine;
     margin-left: 500px;
+    border: groove red;
 }
