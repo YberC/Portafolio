@@ -5,6 +5,7 @@
 
 body{
     background-image: url('../images/paisaje.jpg');
+    background-size: cover;
 }
 
 h1{

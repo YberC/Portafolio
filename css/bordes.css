@@ -1,84 +1,86 @@
 body{
-    background-color: bisque;
+    background-image: url(../images/atardecer.jpg);
+    background-size: cover;
 }
 
 p{
-    font-size: 30px;
+    font-size: 15px;
     margin-top: 5px;
     margin-bottom: 18px;
     text-align: center;
-    margin: 5px;
+    margin: 0.25em;
     letter-spacing: -.03em;
     word-spacing: -.03em;
     line-height: .8em;
-
+    
 }
 
 .box{
-    width: 300px;
-    height: 300px;
-    border: 10px dashed black;
-    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    border: 10px dashed rgb(33, 246, 36);
+    background-color: rgb(112, 56, 231);
     margin-bottom: 50px;
-    margin-top: 200px;
-}
-
-.box1{
-    width: 300px;
-    height: 300px;
-    border: 10px dotted black;
-    background-color: aqua;
-    margin-left: 400px; 
-    margin-bottom: 50px;
-    margin-top: -367px;
-}
-
-.box2{
-    width: 300px;
-    height: 300px;
-    border: 10px solid black;
-    background-color: aqua;
-    margin-left: 800px; 
-    margin-bottom: -655px;
-    margin-top: -367px;
+    margin-top: 100px;
   
 }
 
-.box3{
-    width: 300px;
-    height: 300px;
-    border: 10px double black;
-    background-color: aqua;
-    margin-left: 1200px; 
+.box1{
+    width: 150px;
+    height: 150px;
+    border: 10px dotted black;
+    background-color: rgb(222, 159, 95);
+    margin-left: 200px; 
     margin-bottom: 50px;
-    margin-top: 337px;
+    margin-top: -218px;
+}
+
+.box2{
+    width: 150px;
+    height: 150px;
+    border: 10px solid black;
+    background-color: aqua;
+    margin-left: 400px; 
+    margin-bottom: -655px;
+    margin-top: -218px; 
+}
+
+.box3{
+    width: 150px;
+    height: 150px;
+    border: 10px double black;
+    background-color: rgb(211, 53, 137);
+    margin-left: 600px; 
+    margin-bottom: 50px;
+    margin-top: 486px;
 }
 
 .box4{
-    width: 300px;
-    height: 300px;
-    border: 10px groove black;
-    background-color: aqua;
-    margin-left: 1600px; 
+    width: 150px;
+    height: 150px;
+    border: 10px groove rgb(218, 38, 38);
+    background-color: rgb(232, 230, 91);
+    margin-left: 800px; 
     margin-bottom: 50px;
-    margin-top: -367px;
+    margin-top: -218px;
 }
 
 section{
-    display: flex;
+    /*display: flex;
     height: 100vh;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: center;*/
 }
 
 section .circulo span{
     position: absolute;
-    height: 100px;
+    margin-left: 480px;
+    height: 10px;
     width: 10px;
     border-radius: 500px;
     transform: rotate(calc(var(--i) * (360deg / 15))) translateY(35px);
-    background: rgb(206, 48, 48);
+    background: rgb(240, 253, 117);
     animation: animate 1.5s linear infinite;
     animation-delay: calc(var(--i)*0.1s);
     opacity: 0;
@@ -93,13 +95,12 @@ section .circulo span{
     }
 }
 
-
 /*.circulo{
-    width: 300px; 
-    height: 300px;
+    margin-bottom: 10px;
+    width: 50px; 
+    height: 50px;
     border-radius: 200px;
     background-color: aquamarine;
-    margin-left: 800px;
-    
+    margin-left: 150px;
     border: 20px groove red;
 }*/

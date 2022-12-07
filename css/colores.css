@@ -83,5 +83,5 @@
 
 body{
     background-image: url('../images/feria.jpg');
-    background-attachment: fixed;
+    background-size: cover;
 }
