@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.main{
+    margin-top: 20px;
+    
+}
+
+.main1{
+    margin-top: 200px;
+}
+
+label{
+    text-align: center;
+    display: block;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    width: 15%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.imagesDOMINAR250{
+    width: 50%;
+    margin-top: 55px;
+}
+
+.imagesbenelli251{
+    width: 100%;
+    margin-top: 55px;
+}
+
+.imagesHunk160{
+    width: 100%;
+    margin-top: 55px;
+}
+
+.imagesPulsarns200{
+    width: 100%;
+    margin-top: 55px;
+}
+
+.imageszontex155{
+    width: 50%;
+    margin-top: 55px;
+}
+
+.imagesr15v3{
+    width: 100%;
+    margin-top: 55px;
+}
